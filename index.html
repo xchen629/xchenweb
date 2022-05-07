@@ -7,19 +7,32 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title></title>
+    <style>
+        .content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -250px;
+            /*(half of width)*/
+            margin-top: -250px;
+            /*(half of height)*/
+        }
+    </style>
 </head>
 
 <body>
+    <div class="content" >
+        <!-- Page content -->
+        <h2>想看里面的内容?</h2>
 
-    <h2>想看里面的内容?</h2>
+        <h3>你的生日</h3>
+        <p>例如：7月12 输入 712</p>
 
-    <p></p>
+        <input id="numb">
 
-    <input id="numb">
+        <button id="button" type="button" onclick="myFunction()">确认</button>
+    </div>
 
-    <button id="button" type="button" onclick="myFunction()">Submit</button>
-
-    <p id="demo"></p>
 
     <script src="./src/goToMainPage.js"></script>
 
