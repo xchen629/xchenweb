@@ -6,7 +6,7 @@ function myFunction() {
     if (isNaN(x) || x == "" || x != 627) {
         text = "Input not valid";
     } else {
-        location.href = "./Prank.html";
+        location.href = "./tree.html";
     }
     document.getElementById("demo").innerHTML = text;
 }
