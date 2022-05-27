@@ -3,6 +3,8 @@ body {
     width: 100%;
     background: #080f1a;
     overflow: hidden;
+    font-family: Signika Negative, Asap, sans-serif;
+    color: white;
 }
 
 .container {

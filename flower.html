@@ -8,10 +8,30 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title></title>
     <link rel="stylesheet" href="./RoseSrc/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        body {
+            background-color: #000;
+        }
+    </style>
 </head>
 
 <body>
+    <script type="text/javascript" class="autoinsert" src="js/jquery-1.2.6.min.js"></script>
+    <script src="js/snowfall.jquery.js"></script>
+    <script>
+        $(document).snowfall('clear');
+        $(document).snowfall({
+            image: "images/huaban.png",
+            flakeCount: 30,
+            minSize: 5,
+            maxSize: 22
+        });
+    </script>
     <!-- partial:index.partial.html -->
+    <div id="container">
+
+    </div>
     <div class="container">
         <div class="glass">
             <div class="shine"></div>
@@ -58,8 +78,7 @@
             <div></div>
         </div>
     </div><!-- partial -->
-    <button id="fireWork">点击有惊喜!</button>
-    <script src="./src/routing.js"></script>
+    <script src="./test/script.js"></script>
 
 </body>
 
